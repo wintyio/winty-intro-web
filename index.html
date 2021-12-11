@@ -4,22 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winter Friends</title>
+    <title>winty</title>
 
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/dafault.js"></script>
 </head>
 
 <body>
+    <div class="hamburger_menu_background"></div>
+    <div class="hamburger_menu">        
+        <div class="menu">
+            <div class="menu_item"><a href="./about.html">about</a></div>
+            <div class="menu_item"><a href="./projects.html">projects</a></div>
+        </div>
+    </div>
+
     <div class="top_bar">
         <div class="logo">
-            winty<span class="primary_color">.</span>
+            <a href="./index.html">
+                winty<span class="primary_color">.</span>
+            </a>
         </div>
 
+        <div class="hamburger_munu_button" onclick="onClickHamburgerMenuButton(this)">
+            <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <line x1="10" y1="19.5" x2="38" y2="19.5" stroke-width="2" />
+                <line x1="10" y1="28.5" x2="38" y2="28.5" stroke-width="2" />
+              </g>
+              
+              <g>
+                <line x1="10" y1="24" x2="38" y2="24" stroke-width="2" />
+                <line x1="10" y1="24" x2="38" y2="24" stroke-width="2" />
+              </g>
+            </svg>
+          </div>
+        
         <div class="menu">
-            <div class="menu_item">about</div>
-            <div class="menu_item">projects</div>
-            <div class="menu_item">contact</div> 
+            <div class="menu_item"><a href="./about.html">about</a></div>
+            <div class="menu_item"><a href="./projects.html">projects</a></div>
         </div>
     </div>
 
@@ -32,8 +57,14 @@
 
             <div class="virtical_line"></div>
 
-            <div class="description">
+            <div class="description tablet">
                 눈사람을 만들기 위해 눈 굴리기를 시작했던 겨울처럼,<br/>
+                윈티는 늘 포기하지 않고 눈을 굴려나갑니다.
+            </div>
+
+            <div class="description">
+                눈사람을 만들기 위해 눈 굴리기를<br/>
+                시작했던 겨울처럼,<br/>
                 윈티는 늘 포기하지 않고 눈을 굴려나갑니다.
             </div>
         </div>
