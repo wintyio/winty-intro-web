@@ -35,11 +35,11 @@
                                     'Authorization': googleUser.wc.id_token
                                 },
                                 error: function (error) {
-                                    alert(error);
+                                    console.log(error);
                                     alert("Error!");
                                 },
                                 success: function (data) {
-                                    alert(data);
+                                    console.log(data);
                                     alert("success!");
                                 },
                                 complete: function () {
